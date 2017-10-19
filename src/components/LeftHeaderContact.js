@@ -8,8 +8,8 @@ const LeftHeaderContact = props => {
         Engineer
       </p>
       <p>
-        <i className="fa fa-home fa-fw w3-margin-right w3-large w3-text-red" />Dar-es
-        salamm, Tanzania
+        <i className="fa fa-home fa-fw w3-margin-right w3-large w3-text-red" />Dar-es-
+        salaam, Tanzania
       </p>
       <p>
         <i className="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-red" />eismail44@gmail.com
