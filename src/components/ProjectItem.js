@@ -1,6 +1,11 @@
 import React from "react";
 
 const ProjectItem = props => {
+  const webLink = props.project.webLink ? (
+    <p>
+      Please click it <a href={props.project.webLink}>here</a> to view it.
+    </p>
+  ) : null;
   return (
     <div className="w3-container">
       <h5 className="w3-opacity">
@@ -11,6 +16,7 @@ const ProjectItem = props => {
         {props.project.timeLine}
       </h6>
       <p>{props.project.summary}</p>
+      {webLink}
       <hr />
     </div>
   );
