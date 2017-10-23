@@ -35,6 +35,9 @@
     {
       "id": "1",
       "name": "Hackernews Web App",
+      "webLink": "https://hacker.alcalgroup.com",
+      "timeLine": "October 2017-",
+
       "company": "Personal Project",
       "timeLine": "August 2017",
       "summary":
@@ -57,6 +60,7 @@
       "summary":
         "Built my portfoliio web application that shows my various accomplishments. Used JavaScript, react, JSON, HTML, and CSS to build it. Wrote test cases using jest to make my applicaton more robust."
     },
+
     {
       "id": "4",
       "name": "Shell",
